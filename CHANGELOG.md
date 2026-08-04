@@ -9,6 +9,8 @@
 - Local schema validation, tests, and GitHub Pages deployment.
 - Webhook Deck 0.2.0 with its four-key interface, action appearance controls,
   and legacy page migration.
+- Webhook Deck 0.3.0 with swipe navigation, action-accent execution feedback,
+  and automatic success reset.
 
 ### Fixed
 
