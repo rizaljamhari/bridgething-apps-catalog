@@ -16,6 +16,7 @@ copyFileSync(
   resolve(root, "schema", "catalog.v1.schema.json"),
   resolve(dist, "catalog.v1.schema.json"),
 );
+copyFileSync(resolve(root, "icon.svg"), resolve(dist, "icon.svg"));
 writeFileSync(resolve(dist, ".nojekyll"), "");
 writeFileSync(
   resolve(dist, "index.html"),

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">BridgeThing Apps catalog</title>
+  <desc id="description">Three connected app tiles on a dark rounded square</desc>
+  <defs>
+    <linearGradient id="background" x1="64" y1="32" x2="448" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#20242f" />
+      <stop offset="1" stop-color="#101218" />
+    </linearGradient>
+    <linearGradient id="accent" x1="132" y1="118" x2="386" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffb23e" />
+      <stop offset="1" stop-color="#ff5c35" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#background)" />
+  <path d="M176 190h160M176 322h160M190 176v160M322 176v160" fill="none" stroke="url(#accent)" stroke-width="26" stroke-linecap="round" />
+  <rect x="96" y="96" width="160" height="160" rx="42" fill="#f7f8fb" />
+  <rect x="256" y="96" width="160" height="160" rx="42" fill="#f7f8fb" />
+  <rect x="96" y="256" width="160" height="160" rx="42" fill="#f7f8fb" />
+  <circle cx="176" cy="176" r="30" fill="#ff7a36" />
+  <path d="M310 176h52M336 150v52" stroke="#ff7a36" stroke-width="22" stroke-linecap="round" />
+  <path d="m145 337 22 22 43-48" fill="none" stroke="#ff7a36" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

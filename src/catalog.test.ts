@@ -8,6 +8,7 @@ const emptyCatalog = {
     name: "BridgeThing Apps",
     description: "Desk apps.",
     homepage: "https://example.com/catalog",
+    icon: "https://example.com/catalog-icon.svg",
   },
   apps: [],
   recommended_sources: [],
@@ -16,6 +17,16 @@ const emptyCatalog = {
 describe("validateCatalog", () => {
   it("accepts an empty catalog", () => {
     expect(validateCatalog(emptyCatalog)).toEqual([]);
+  });
+
+  it("requires a repository icon", () => {
+    const { icon: _, ...repoWithoutIcon } = emptyCatalog.repo;
+    expect(
+      validateCatalog({ ...emptyCatalog, repo: repoWithoutIcon }),
+    ).toContainEqual({
+      path: "repo.icon",
+      message: "must be an HTTPS URL without credentials",
+    });
   });
 
   it("rejects duplicate app identities", () => {

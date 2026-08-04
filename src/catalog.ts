@@ -15,7 +15,7 @@ export type CatalogRepository = {
   name: string;
   description: string;
   homepage: string;
-  icon?: string;
+  icon: string;
 };
 
 export type CatalogApp = {
@@ -90,7 +90,7 @@ export function validateCatalog(value: unknown): ValidationIssue[] {
       issue("repo.description", "is required");
     if (!isHttpsUrl(value.repo.homepage))
       issue("repo.homepage", "must be an HTTPS URL without credentials");
-    if (value.repo.icon !== undefined && !isHttpsUrl(value.repo.icon)) {
+    if (!isHttpsUrl(value.repo.icon)) {
       issue("repo.icon", "must be an HTTPS URL without credentials");
     }
   }

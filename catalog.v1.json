@@ -1,10 +1,11 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-04T08:43:40Z",
+  "updated_at": "2026-08-04T08:55:10Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
-    "homepage": "https://github.com/rizaljamhari/bridgething-apps-catalog"
+    "homepage": "https://github.com/rizaljamhari/bridgething-apps-catalog",
+    "icon": "https://rizaljamhari.github.io/bridgething-apps-catalog/icon.svg"
   },
   "apps": [
     {
