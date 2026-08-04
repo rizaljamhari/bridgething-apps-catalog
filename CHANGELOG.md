@@ -10,4 +10,6 @@
 
 ### Fixed
 
+- Publish Webhook Deck 0.1.1 with reliable startup connection-state
+  synchronization.
 - Add the repository icon required by BridgeThing source validation.

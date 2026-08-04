@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-04T08:55:10Z",
+  "updated_at": "2026-08-04T09:41:56Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -17,6 +17,18 @@
       "homepage": "https://github.com/rizaljamhari/bridgething-webhook-deck",
       "source": "https://github.com/rizaljamhari/bridgething-webhook-deck",
       "versions": [
+        {
+          "version": "0.1.1",
+          "released_at": "2026-08-04T09:40:17Z",
+          "download": {
+            "url": "https://rizaljamhari.github.io/bridgething-webhook-deck/releases/v0.1.1/Webhook-Deck-0.1.1.zip",
+            "size": 956731,
+            "sha256": "79af589e57ff64de320c98ead2e1cb2e8996150ab15af9a6d1a3a712456d8e2b"
+          },
+          "permissions": ["net.fetch"],
+          "min_libbridgething_version": "0.8.0",
+          "changelog": "Fix the connection indicator and action readiness when the on-device daemon connects before the app subscribes to connection events."
+        },
         {
           "version": "0.1.0",
           "released_at": "2026-08-04T08:37:22Z",
