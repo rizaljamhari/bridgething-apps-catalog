@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-04T08:37:48Z",
+  "updated_at": "2026-08-04T08:43:40Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -20,7 +20,7 @@
           "version": "0.1.0",
           "released_at": "2026-08-04T08:37:22Z",
           "download": {
-            "url": "https://github.com/rizaljamhari/bridgething-webhook-deck/releases/download/v0.1.0/Webhook-Deck-0.1.0.zip",
+            "url": "https://rizaljamhari.github.io/bridgething-webhook-deck/releases/v0.1.0/Webhook-Deck-0.1.0.zip",
             "size": 956486,
             "sha256": "55fa153f2d3b4b698ff2b90fe3a205328a2e2faa0d79937cb27f19fa0903ab5f"
           },
