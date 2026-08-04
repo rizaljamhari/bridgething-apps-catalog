@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-04T09:41:56Z",
+  "updated_at": "2026-08-04T10:26:30Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -17,6 +17,18 @@
       "homepage": "https://github.com/rizaljamhari/bridgething-webhook-deck",
       "source": "https://github.com/rizaljamhari/bridgething-webhook-deck",
       "versions": [
+        {
+          "version": "0.2.0",
+          "released_at": "2026-08-04T10:25:00Z",
+          "download": {
+            "url": "https://rizaljamhari.github.io/bridgething-webhook-deck/releases/v0.2.0/Webhook-Deck-0.2.0.zip",
+            "size": 963148,
+            "sha256": "2cb9320bd5dbb045799ff45c82259e01054266d26ca464840540b90e739b337f"
+          },
+          "permissions": ["net.fetch"],
+          "min_libbridgething_version": "0.8.0",
+          "changelog": "Redesign the device as a readable four-key deck with bundled icons, emoji fallback, accent colors, and automatic migration of legacy six-action pages."
+        },
         {
           "version": "0.1.1",
           "released_at": "2026-08-04T09:40:17Z",
