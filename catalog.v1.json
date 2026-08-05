@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-05T10:49:46Z",
+  "updated_at": "2026-08-05T11:10:18Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -17,6 +17,18 @@
       "homepage": "https://github.com/rizaljamhari/bridgething-wakatime",
       "source": "https://github.com/rizaljamhari/bridgething-wakatime",
       "versions": [
+        {
+          "version": "0.1.3",
+          "released_at": "2026-08-05T11:10:18Z",
+          "download": {
+            "url": "https://rizaljamhari.github.io/bridgething-wakatime/releases/v0.1.3/WakaTime-0.1.3.zip",
+            "size": 427686,
+            "sha256": "46ab253de0f88a229715bd4bd79243f78f080deb88457a633fe6b664df02d596"
+          },
+          "permissions": ["net.fetch"],
+          "min_libbridgething_version": "0.8.0",
+          "changelog": "Load the optional WakaTime profile photo through BridgeThing networking and prevent Weekly content from overlapping navigation."
+        },
         {
           "version": "0.1.2",
           "released_at": "2026-08-05T10:49:46Z",
