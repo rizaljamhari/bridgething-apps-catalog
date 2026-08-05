@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-04T10:58:26Z",
+  "updated_at": "2026-08-05T09:51:50Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -8,6 +8,29 @@
     "icon": "https://rizaljamhari.github.io/bridgething-apps-catalog/icon.svg"
   },
   "apps": [
+    {
+      "id": "019fd147-eaa1-773c-81d2-1ff2e48bbfb8",
+      "name": "WakaTime",
+      "description": "A glanceable personal WakaTime productivity dashboard for BridgeThing.",
+      "author": "Rizal Jamhari",
+      "icon": "https://raw.githubusercontent.com/rizaljamhari/bridgething-wakatime/main/public/icon.svg",
+      "homepage": "https://github.com/rizaljamhari/bridgething-wakatime",
+      "source": "https://github.com/rizaljamhari/bridgething-wakatime",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "released_at": "2026-08-05T09:51:50Z",
+          "download": {
+            "url": "https://rizaljamhari.github.io/bridgething-wakatime/releases/v0.1.0/WakaTime-0.1.0.zip",
+            "size": 419645,
+            "sha256": "938414ad1000bd9f592dd880521fe9f727acc0760cd44005561b2d5fada586ba"
+          },
+          "permissions": ["net.fetch"],
+          "min_libbridgething_version": "0.8.0",
+          "changelog": "Initial release with Today, Weekly, Projects, and Rhythm views; top-three project summaries; and optional recent AI/Human code-change telemetry."
+        }
+      ]
+    },
     {
       "id": "019fcbbd-091d-7298-9781-5f37a3ced457",
       "name": "Webhook Deck",
