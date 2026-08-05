@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-05T09:51:50Z",
+  "updated_at": "2026-08-05T09:57:17Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -23,7 +23,7 @@
           "download": {
             "url": "https://rizaljamhari.github.io/bridgething-wakatime/releases/v0.1.0/WakaTime-0.1.0.zip",
             "size": 419645,
-            "sha256": "938414ad1000bd9f592dd880521fe9f727acc0760cd44005561b2d5fada586ba"
+            "sha256": "de98c9362c15511fd1e5c8677c0ffb9319a3664f44d7d6e385a0da50ee6f70db"
           },
           "permissions": ["net.fetch"],
           "min_libbridgething_version": "0.8.0",
