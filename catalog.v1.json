@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-05T09:57:17Z",
+  "updated_at": "2026-08-05T10:15:56Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -17,6 +17,18 @@
       "homepage": "https://github.com/rizaljamhari/bridgething-wakatime",
       "source": "https://github.com/rizaljamhari/bridgething-wakatime",
       "versions": [
+        {
+          "version": "0.1.1",
+          "released_at": "2026-08-05T10:15:56Z",
+          "download": {
+            "url": "https://rizaljamhari.github.io/bridgething-wakatime/releases/v0.1.1/WakaTime-0.1.1.zip",
+            "size": 420608,
+            "sha256": "1224e0e9d39c14ba303ccce96db6014267314d045802531464d06cd16fac5945"
+          },
+          "permissions": ["net.fetch"],
+          "min_libbridgething_version": "0.8.0",
+          "changelog": "Derive AI/Human line changes and 30-day weekday Rhythm from WakaTime summaries, with optional AI Heuristics review context."
+        },
         {
           "version": "0.1.0",
           "released_at": "2026-08-05T09:51:50Z",
