@@ -1,6 +1,6 @@
 {
   "schema": "catalog.v1",
-  "updated_at": "2026-08-05T10:15:56Z",
+  "updated_at": "2026-08-05T10:49:46Z",
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
@@ -17,6 +17,18 @@
       "homepage": "https://github.com/rizaljamhari/bridgething-wakatime",
       "source": "https://github.com/rizaljamhari/bridgething-wakatime",
       "versions": [
+        {
+          "version": "0.1.2",
+          "released_at": "2026-08-05T10:49:46Z",
+          "download": {
+            "url": "https://rizaljamhari.github.io/bridgething-wakatime/releases/v0.1.2/WakaTime-0.1.2.zip",
+            "size": 426465,
+            "sha256": "c7340ccab4d7a2dbd80fb74782a651bc35cd651e65d11583e156f5a6d3415f7c"
+          },
+          "permissions": ["net.fetch"],
+          "min_libbridgething_version": "0.8.0",
+          "changelog": "Add expanded AI Usage panels, focused Projects, Momentum trends, larger dashboard typography, and an optional WakaTime profile header."
+        },
         {
           "version": "0.1.1",
           "released_at": "2026-08-05T10:15:56Z",
