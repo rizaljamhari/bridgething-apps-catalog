@@ -4,7 +4,7 @@
   "repo": {
     "name": "Rizal's BridgeThing Apps",
     "description": "Open-source desk apps for BridgeThing devices.",
-    "homepage": "https://github.com/rizaljamhari/bridgething-apps-catalog",
+    "homepage": "https://rizaljamhari.github.io/bridgething-apps-catalog",
     "icon": "https://rizaljamhari.github.io/bridgething-apps-catalog/icon.svg"
   },
   "apps": [
