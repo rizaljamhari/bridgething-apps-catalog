@@ -22,6 +22,10 @@ bun run check
 `bun run check` validates catalog identity, app versions, ordering, URLs,
 checksums, formatting, types, tests, and the static Pages output.
 
+## Landing-page wireframe
+
+[App-list landing page wireframe](docs/wireframes/app-list.svg)
+
 ## Add an app release
 
 1. Publish an immutable ZIP in the app's independent GitHub Release.

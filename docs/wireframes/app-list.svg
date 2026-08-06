@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040" role="img" aria-labelledby="title description">
+  <title id="title">BridgeThing Apps Catalog app-list landing page wireframe</title>
+  <desc id="description">A responsive catalog landing page showing two BridgeThing app cards, their latest versions, and direct ZIP download buttons alongside a link to catalog JSON.</desc>
+  <style>
+    .canvas { fill: #0b1020; }
+    .page { fill: #10182b; }
+    .card { fill: #172238; stroke: #344866; stroke-width: 2; }
+    .primary { fill: #77e3a7; }
+    .secondary { fill: #1d2c45; stroke: #506887; stroke-width: 2; }
+    .chip { fill: #223651; }
+    .line { stroke: #344866; stroke-width: 2; }
+    .title { fill: #f5f8ff; font: bold 30px Arial, sans-serif; }
+    .hero { fill: #f5f8ff; font: bold 52px Arial, sans-serif; }
+    .heading { fill: #f5f8ff; font: bold 25px Arial, sans-serif; }
+    .body { fill: #c5d0e0; font: 19px Arial, sans-serif; }
+    .small { fill: #aebbd0; font: 16px Arial, sans-serif; }
+    .button { fill: #0c1718; font: bold 17px Arial, sans-serif; }
+    .button-secondary { fill: #d7e3f3; font: bold 17px Arial, sans-serif; }
+    .badge { fill: #b8f5d2; font: bold 15px Arial, sans-serif; }
+  </style>
+  <rect class="canvas" width="1440" height="1040"/>
+  <rect class="page" x="80" y="48" width="1280" height="944" rx="18"/>
+
+  <g transform="translate(144 96)">
+    <!-- Header -->
+    <circle class="primary" cx="18" cy="18" r="18"/>
+    <path d="M11 18h14M18 11v14" stroke="#0b1020" stroke-width="3" stroke-linecap="round"/>
+    <text class="title" x="52" y="28">Rizal's BridgeThing Apps</text>
+    <text class="small" x="52" y="52">Open-source apps for BridgeThing devices</text>
+    <rect class="secondary" x="1105" y="0" width="143" height="40" rx="8"/>
+    <text class="button-secondary" x="1124" y="26">Catalog JSON</text>
+
+    <!-- Hero -->
+    <text class="small" x="0" y="116">OPEN-SOURCE APP DIRECTORY</text>
+    <text class="hero" x="0" y="178">Find an app for your desk.</text>
+    <text class="body" x="0" y="216">Download a verified BridgeThing app, then install its ZIP from your device.</text>
+    <rect class="chip" x="0" y="244" width="101" height="34" rx="17"/>
+    <text class="badge" x="20" y="267">2 apps</text>
+    <text class="small" x="122" y="267">Latest releases are shown first.</text>
+
+    <!-- App cards -->
+    <g transform="translate(0 326)">
+      <rect class="card" width="606" height="378" rx="14"/>
+      <rect class="primary" x="30" y="30" width="72" height="72" rx="18"/>
+      <text class="heading" x="123" y="58">WakaTime</text>
+      <text class="small" x="123" y="84">v0.1.4 · Aug 5, 2026</text>
+      <text class="body" x="30" y="143">A glanceable personal WakaTime dashboard</text>
+      <text class="body" x="30" y="169">for your desk-mounted BridgeThing.</text>
+      <rect class="chip" x="30" y="199" width="122" height="31" rx="15"/>
+      <text class="small" x="47" y="221">NET FETCH</text>
+      <rect class="chip" x="162" y="199" width="145" height="31" rx="15"/>
+      <text class="small" x="181" y="221">LIB 0.8.0+</text>
+      <line class="line" x1="30" y1="262" x2="576" y2="262"/>
+      <text class="small" x="30" y="294">Calendar-week activity, projects, AI usage, and Momentum.</text>
+      <rect class="primary" x="30" y="319" width="274" height="42" rx="9"/>
+      <text class="button" x="112" y="346">Download ZIP</text>
+      <rect class="secondary" x="320" y="319" width="256" height="42" rx="9"/>
+      <text class="button-secondary" x="401" y="346">View source</text>
+    </g>
+
+    <g transform="translate(642 326)">
+      <rect class="card" width="606" height="378" rx="14"/>
+      <rect class="primary" x="30" y="30" width="72" height="72" rx="18"/>
+      <text class="heading" x="123" y="58">Webhook Deck</text>
+      <text class="small" x="123" y="84">v0.3.0 · Aug 4, 2026</text>
+      <text class="body" x="30" y="143">A configurable HTTP control surface for</text>
+      <text class="body" x="30" y="169">your desk-mounted BridgeThing device.</text>
+      <rect class="chip" x="30" y="199" width="122" height="31" rx="15"/>
+      <text class="small" x="47" y="221">NET FETCH</text>
+      <rect class="chip" x="162" y="199" width="145" height="31" rx="15"/>
+      <text class="small" x="181" y="221">LIB 0.8.0+</text>
+      <line class="line" x1="30" y1="262" x2="576" y2="262"/>
+      <text class="small" x="30" y="294">Touch-friendly actions, pages, and companion configuration.</text>
+      <rect class="primary" x="30" y="319" width="274" height="42" rx="9"/>
+      <text class="button" x="112" y="346">Download ZIP</text>
+      <rect class="secondary" x="320" y="319" width="256" height="42" rx="9"/>
+      <text class="button-secondary" x="401" y="346">View source</text>
+    </g>
+
+    <!-- Footer information -->
+    <line class="line" x1="0" y1="758" x2="1248" y2="758"/>
+    <text class="heading" x="0" y="810">Install with confidence</text>
+    <text class="body" x="0" y="842">Every download points to a versioned ZIP and checksum recorded in the catalog.</text>
+    <text class="small" x="0" y="891">Prefer an app client? Use the machine-readable catalog.v1.json source.</text>
+    <rect class="secondary" x="1001" y="852" width="247" height="44" rx="9"/>
+    <text class="button-secondary" x="1046" y="880">Open catalog JSON</text>
+  </g>
+</svg>
